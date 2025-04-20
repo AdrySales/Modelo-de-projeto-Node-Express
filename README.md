@@ -33,7 +33,9 @@ cd novo-projeto
 npm install
 ```
 
-3. **Configure seu banco de dados e Cloudinary:**
+3. **Configure seu banco de dados e Cloudinary e rode as migrations:**
+   
+Comando para rodar todas as migrations pendentes  `npx sequelize-cli db:migrate `
 
 Crie um `.env` com base no `.env.example`:
 
