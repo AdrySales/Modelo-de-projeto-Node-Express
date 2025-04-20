@@ -38,12 +38,26 @@ npm install
 Crie um `.env` com base no `.env.example`:
 
 ```env
-PORT=3333
-DATABASE_URL=postgresql://usuario:senha@host:porta/database
-JWT_SECRET=sua_chave_secreta
-CLOUDINARY_CLOUD_NAME=seu_cloud_name
-CLOUDINARY_API_KEY=sua_api_key
-CLOUDINARY_API_SECRET=sua_api_secret
+ENV=develop
+
+PORT=8000
+
+DB_PORT=5432
+DB_HOST=db
+DB_USER=postgres
+DB_PASS=postgres
+DB_NAME=meu_banco
+
+FRONTEND_URL=http://localhost:8000
+SENDINBLUE_API_KEY=SUA_API_KEY_DO_SENDINBLUE
+
+JWT_SECRET=minha_chave_super_secreta
+JWT_EXPIRES_IN=1d
+
+CLOUDINARY_CLOUD_NAME=minhaContaCloudinary
+CLOUDINARY_API_KEY=123456789
+CLOUDINARY_API_SECRET=secreta123
+
 ```
 
 4. **Suba o ambiente com Docker:**
