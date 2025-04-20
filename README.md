@@ -7,7 +7,7 @@ Este repositório contém um projeto inicial em **Node.js** com uma estrutura ro
 - **Autenticação com JWT**
 - **Criptografia de senhas com bcrypt**
 - **Conexão com Cloudinary** para upload de arquivos no CRUD de usuários como imagem de perfil
-- **Migrations de usuários** com `knex`
+- **Migrations de usuários** com `Sequelize`
 - **Controllers com estrutura middleware separados para:**
   - Autenticação (`authController`)
   - Usuários (`userController`)
