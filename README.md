@@ -11,7 +11,7 @@ Este repositório contém um projeto inicial em **Node.js** com uma estrutura ro
 - **Controllers com estrutura middleware separados para:**
   - Autenticação (`authController`)
   - Usuários (`userController`)
-- **Sistema de rotas completo**
+- **Sistema de rotas completo feito com express**
 - **Testes unitários com Jest** para autenticação e usuários
 - **Dockerfile e docker-compose configurados**
 - **Estrutura organizada em MVC**
