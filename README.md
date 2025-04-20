@@ -8,7 +8,7 @@ Este repositório contém um projeto inicial em **Node.js** com uma estrutura ro
 - **Criptografia de senhas com bcrypt**
 - **Conexão com Cloudinary** para upload de arquivos no CRUD de usuários como imagem de perfil
 - **Migrations de usuários** com `knex`
-- **Controllers separados para:**
+- **Controllers com estrutura middleware separados para:**
   - Autenticação (`authController`)
   - Usuários (`userController`)
 - **Sistema de rotas completo**
