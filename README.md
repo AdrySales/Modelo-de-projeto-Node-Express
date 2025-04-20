@@ -23,8 +23,8 @@ Este repositório contém um projeto inicial em **Node.js** com uma estrutura ro
 1. **Clone este repositório:**
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repo-node-starter.git novo-projeto
-cd novo-projeto
+git clone https://github.com/AdrySales/Modelo-de-projeto-Node-Express.git
+cd Modelo-de-projeto-Node-Express
 ```
 
 2. **Instale as dependências:**
